@@ -11,12 +11,14 @@ config_version=5
 [application]
 
 config/name="RPG to Learn how to make them"
+run/main_scene="res://Characters/Player/player.tscn"
 config/features=PackedStringArray("4.0", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/aspect="expand"
+window/stretch/scale=4.0
 
 [rendering]
 

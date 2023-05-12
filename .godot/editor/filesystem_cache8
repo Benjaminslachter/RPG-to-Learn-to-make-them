@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683812206
+::res://::1683896226
 icon.svg::CompressedTexture2D::9143210859176152078::1683810480::1683811965::1::::<><>::
 README.md::TextFile::-1::1683810925::0::1::::<><>::
 ::res://Assets/::1683812022
@@ -47,7 +47,9 @@ wooden_door.png::CompressedTexture2D::8030175727167225541::1683812020::168381202
 wooden_door_b.png::CompressedTexture2D::2028287684097420727::1683812020::1683812026::1::::<><>::
 ::res://Characters/::1683810612
 ::res://Characters/Enemies/::1683810607
-::res://Characters/Player/::1683810599
+::res://Characters/Player/::1683813518
+player.gd::GDScript::-1::1683813518::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::7694168501957168182::1683813478::0::1::::<><>::res://Characters/Player/player.gd<>uid://c4t1jediorygy
 ::res://Levels/::1683812193
 world.tscn::PackedScene::8508833299523090332::1683812193::0::1::::<><>::
 ::res://Misc/::1683811924
