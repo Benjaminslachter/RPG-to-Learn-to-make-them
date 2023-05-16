@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=3 uid="uid://dhvd3i0mmouo1"]
+[gd_scene load_steps=56 format=3 uid="uid://dhvd3i0mmouo1"]
 
 [ext_resource type="Script" path="res://Characters/Player/player.gd" id="1_iy781"]
 [ext_resource type="Texture2D" uid="uid://c4t1jediorygy" path="res://Assets/mystic_woods_free_2.1/sprites/characters/player.png" id="2_6o1hl"]
@@ -413,12 +413,17 @@ animations = [{
 "speed": 7.0
 }]
 
-[node name="Player" type="CharacterBody2D"]
-position = Vector2(215, 129)
-script = ExtResource("1_iy781")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_igy8h"]
+size = Vector2(13, 5)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(213, 122)
+script = ExtResource("1_iy781")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_eop8i")
 animation = &"Idle_Front"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 17)
+shape = SubResource("RectangleShape2D_igy8h")

@@ -60,3 +60,4 @@ func play_anim(movement):
 		elif movement == 0:
 			anim.play("Idle_Up")
 	
+-
