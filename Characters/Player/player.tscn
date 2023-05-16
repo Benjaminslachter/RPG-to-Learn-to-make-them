@@ -421,4 +421,4 @@ script = ExtResource("1_iy781")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_eop8i")
-animation = &"Attack_Up"
+animation = &"Idle_Front"
