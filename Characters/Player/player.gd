@@ -36,19 +36,19 @@ func player_movement():
 		velocity.y = 0
 	
 	move_and_slide()
-
+	
 func play_anim(movement):
 	var dir = current_dir
 	var anim = $AnimatedSprite2D
 	
 	if dir == "right":
-		$AnimatedSprite2D.flip_h = false
+		anim.flip_h = false
 		if movement == 1:
 			anim.play("Walk_Side")
 		elif movement == 0:
 			anim.play("Idle_Side")
 	if dir == "left":
-		$AnimatedSprite2D.flip_h = true
+		anim.flip_h = true
 		if movement == 1:
 			anim.play("Walk_Side")
 		elif movement == 0:
